@@ -112,10 +112,10 @@ body:before {
   left: 0;
   font-family: "Press Start 2P", cursive;
   color: #fff;
-  font-size: 2rem;
+  font-size: 3rem;
   width: 100vw;
   height: 100vh;
-  background: #2b52ff;
+  background: grey;
 }
 .intro-wrap .noise:before {
   background-size: 200%;
@@ -143,6 +143,7 @@ body:before {
   -webkit-animation: rgbText 1s steps(9) 0s infinite alternate;
   animation: rgbText 1s steps(9) 0s infinite alternate;
 }
+
 .intro-wrap .recordSpeed {
   position: absolute;
   left: 2rem;
@@ -157,6 +158,9 @@ body:before {
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
   height: 100vh; /* Full height of the viewport */
+  will-change: text-shadow;
+  -webkit-animation: rgbText 2s steps(9) 0s infinite alternate;
+  animation: rgbText 2s steps(9) 0s infinite alternate;
 }
 
 .img img {
